@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Staging model pro zákazníky"
+    columns:
+      - name: customer_number
+        description: "Primární klíč zákazníka"
+        tests:
+          - not_null
+          - unique
