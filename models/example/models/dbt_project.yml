@@ -1,0 +1,10 @@
+name: 'da_course'
+version: '1.0'
+config-version: 2
+
+model-paths: ["models/example/models"]
+profile: 'default'
+
+models:
+  da_course:
+    +materialized: table
