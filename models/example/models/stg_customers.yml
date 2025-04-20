@@ -5,7 +5,7 @@ models:
     description: "Staging model pro zákazníky"
     columns:
       - name: customer_number
-        description: "Primární klíč zákazníka"
+        description: "Customer primary key"
         tests:
           - not_null
           - unique
